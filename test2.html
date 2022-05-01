@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>test2</title>
+    <style>
+        body {
+            margin-top: 300px;
+        }
+
+        .container {
+            display: flex;
+            width: 600px;
+            height: 100px;
+            background-color: red;
+            justify-content:space-evenly;
+            align-items: center;
+            margin: 100px auto;
+
+        }
+
+        #d1,
+        #d2,
+        #d3 {
+            display: flex;
+            height: 40px;
+            width: 120px;
+            background-color: green;
+            margin:0 -4em;
+        }
+
+        #d1 {
+            display: flex;
+            justify-content: start;
+            color: rgb(46, 42, 42);
+        }
+
+        #d2 {
+            display: flex;
+            color: rgb(46, 42, 42);
+            justify-content: flex-start;
+            align-items: center;
+        }
+        #d3{
+            display: flex;
+             color: rgb(46, 42, 42);
+             justify-content: right;
+             align-items: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="d1">Child1</div>
+        <div id="d2">Child2</div>
+        <div id="d3">Child3</div>
+
+    </div>
+</body>
+
+</html> 
